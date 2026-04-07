@@ -8,11 +8,11 @@ interface GalleryImage {
 }
 
 const images: GalleryImage[] = [
-  { src: '/images/gallery-1.webp', alt: 'Equipe da clinica odontologica', caption: 'Nossa Equipe' },
-  { src: '/images/gallery-2.webp', alt: 'Consultorio equipado com tecnologia moderna', caption: 'Tecnologia de Ponta' },
-  { src: '/images/gallery-3.webp', alt: 'Sala de espera elegante e confortavel', caption: 'Conforto e Elegancia' },
-  { src: '/images/gallery-4.webp', alt: 'Consultorio com ambiente acolhedor', caption: 'Ambiente Acolhedor' },
-  { src: '/images/gallery-5.webp', alt: 'Fachada da clinica odontologica', caption: 'Nossa Clinica' },
+  { src: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80', alt: 'Ramalho Odontologia consultorio', caption: 'Nosso Consultorio' },
+  { src: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80', alt: 'Equipe Ramalho', caption: 'Nossa Equipe' },
+  { src: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80', alt: 'Tratamento profissional', caption: 'Profissionalismo' },
+  { src: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80', alt: 'Instrumentos de qualidade', caption: 'Qualidade Garantida' },
+  { src: 'https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=800&q=80', alt: 'Cuidado com carinho', caption: 'Carinho no Atendimento' },
 ];
 
 export default function Gallery() {
